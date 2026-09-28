@@ -1,0 +1,749 @@
+{
+  "schema_version": 1,
+  "deployment_identity": "legavik-track-b-s3-integration-20260929-2",
+  "release": "legavik-track-b-s3-integration-20260929-2",
+  "source_commit": "6a625560b098362f0c31d25defebb1f70b98b822",
+  "status": "QA CANDIDATE ONLY — NOT RELEASE APPROVED — NOT FROZEN",
+  "canonical_origin": "https://sixtrees778899-stack.github.io",
+  "canonical_base": "/LEGAVIK-track-b-s3-qa",
+  "repository": "sixtrees778899-stack/LEGAVIK-track-b-s3-qa",
+  "branch": "qa-candidate",
+  "environment_type": "TRACK_B_INTEGRATION_QA",
+  "canonical_entry": "https://sixtrees778899-stack.github.io/LEGAVIK-track-b-s3-qa/web/v2/index.html?release=legavik-track-b-s3-integration-20260929-2",
+  "html": [
+    {
+      "path": "web/account/index.html",
+      "size": 1003,
+      "sha256": "c9252761326ea3314ea0d19af33a2cf9ae12efe8bd08b2a29ec74fe1c87da549"
+    },
+    {
+      "path": "web/recover.html",
+      "size": 1307,
+      "sha256": "b5cc93d3373718c28ab4d0b5ee6e3386f106b62a876269a1ac20eaae037fec5b"
+    },
+    {
+      "path": "web/v2/index.html",
+      "size": 1692,
+      "sha256": "23db83375f906f8ddfd3b63c355358eda8ff3c3a356fa97f114a2cbcd4a7a186"
+    },
+    {
+      "path": "web/v3-crypto/index.html",
+      "size": 1349,
+      "sha256": "de16a6d89b4ac65be22bf4be129c1dee7fad17b93c449813b86c39fddaec540b"
+    }
+  ],
+  "assets": [
+    {
+      "path": "config/attachments/v1.json",
+      "size": 3665,
+      "sha256": "824f0f6dba7de8a3560450d2ea52a4efd4c5f5d28cad20fb34f082e5f4001d19"
+    },
+    {
+      "path": "config/content/review-zh-CN.json",
+      "size": 2701,
+      "sha256": "a057beae4d73a7c718bfed42605c829687d5eea91ac6bcb698195129cbf1f706"
+    },
+    {
+      "path": "config/content/zh-CN.json",
+      "size": 1765,
+      "sha256": "b4598ab65fe247afb753d92f40e3a1bddb8a5eb3d9f609bb4540a7d89fcb314a"
+    },
+    {
+      "path": "config/customer-deployment.json",
+      "size": 344,
+      "sha256": "6edbe56dfa2c8d9fde9bd8432a1a046dd0e6034c80ec1bd8e23e7d9cfb7a23eb"
+    },
+    {
+      "path": "config/guidance/zh-CN-v1.json",
+      "size": 4100,
+      "sha256": "fdbf73191dbc9fd2235e13a939110a8e5413bcc7974cab507bab2c6edd1dd1bc"
+    },
+    {
+      "path": "config/plans/v1.json",
+      "size": 1159,
+      "sha256": "68405c10f5cd2bbc63f751f5dc8f0631b5bddf9feb7ffd61743d648aff3fb795"
+    },
+    {
+      "path": "config/recovery-map/v2/activation-phase1-zh-CN.json",
+      "size": 6029,
+      "sha256": "6da5db240e198ab3f0f60da909369f6b02e09b524dc0b114ecc92f3f9e0bf793"
+    },
+    {
+      "path": "config/recovery-map/v2/field-types.json",
+      "size": 405,
+      "sha256": "a552be0b02ecb1d6f00f97ababbc9f36c6dd273b6c4d64d59105a3fa0b5fc7ab"
+    },
+    {
+      "path": "config/recovery-map/v2/living-rules-v2.json",
+      "size": 565,
+      "sha256": "ae09a0c885ce5398861781745e8fe93d30ee47b32f1967ed6cd8de36921c7557"
+    },
+    {
+      "path": "config/recovery-map/v2/modules.json",
+      "size": 891,
+      "sha256": "8d9310b519ffdc9557808d155abd80cd73a0cacd34dd721cec409d6a8b1f7160"
+    },
+    {
+      "path": "config/recovery-map/v2/platform-templates-v2.json",
+      "size": 12665,
+      "sha256": "0aa9917743667f785d7e6a2966063fe2439a6c39c37916c0cb685dfae05be2d8"
+    },
+    {
+      "path": "config/recovery-map/v2/presentation-zh-CN.json",
+      "size": 9988,
+      "sha256": "2f8c42cd9bd07a21334fc363a08cf24a08c3692815af6d0e061d944476edbf99"
+    },
+    {
+      "path": "config/recovery-map/v2/product-rules-v1.json",
+      "size": 2113,
+      "sha256": "06862b948060291a10ca40d9645dff00dd6d6bf0f4fc8e4fb53bdc843e2fbe47"
+    },
+    {
+      "path": "config/security/recovery-password-v1.json",
+      "size": 216,
+      "sha256": "6a1ed40c4cae93b72763d6708262c54f29c2f220fd9c093d9e457265b5de9c55"
+    },
+    {
+      "path": "config/templates/business-systems.json",
+      "size": 758,
+      "sha256": "53d5773c1baa211ed5abaf1b2921871d9d8a2c2bdf81e252d9f1b59155c39029"
+    },
+    {
+      "path": "config/templates/contacts-assistance.json",
+      "size": 453,
+      "sha256": "dd086da5229bbbb116c47d8cfdd83707fb4ebf0b4765deef856b63cf5d7d0a36"
+    },
+    {
+      "path": "config/templates/devices-locations.json",
+      "size": 492,
+      "sha256": "bfa8942c021eaa0b39286f886e1ca65a25e772a09ed7b053b20784db8d4910eb"
+    },
+    {
+      "path": "config/templates/digital-accounts.json",
+      "size": 747,
+      "sha256": "b32a199ba9df886d8a6066d02546d83087a09458fc78bf6771f55de40e12ab80"
+    },
+    {
+      "path": "config/templates/exchange-custody.json",
+      "size": 450,
+      "sha256": "72db35d9ecc817911b12bfbd23612f25a9e1763d325928258335255fd35f52a3"
+    },
+    {
+      "path": "config/templates/recovery-orders-warnings.json",
+      "size": 616,
+      "sha256": "7138d67d20c4a3fcf0e13b908c17761e59c7715738654ca6f71d22cbbf97a4f7"
+    },
+    {
+      "path": "config/templates/wallet-assets.json",
+      "size": 629,
+      "sha256": "2f52de1e300e9243f00402dce7b2964faa3fd20381a3069e8d494e1d79834437"
+    },
+    {
+      "path": "config/wizard/v1.json",
+      "size": 442,
+      "sha256": "aaa5554201077310b28537b1b1252193f9e796d1856426b93555379d642d7308"
+    },
+    {
+      "path": "src/ui/skrek-global-header.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 2525,
+      "sha256": "cedadaf8ed1135a636507dbec6e6a5996e357c34dac4e89872b38717fa8f1e74"
+    },
+    {
+      "path": "web/account/account-app.legavik-track-b-s3-integration-20260929-2.bundle.js",
+      "size": 274979,
+      "sha256": "4870ac93bf467d44c3e53883a97c1fdf933f6d158913b9957eee5617dc85747e"
+    },
+    {
+      "path": "web/account/account-nav-bridge.legavik-track-b-s3-integration-20260929-2.bundle.js",
+      "size": 217465,
+      "sha256": "b9caa44a31ca4c87c4610f1b625cbcaf991133c7e0c4f4a398ebe979bfc77cc6"
+    },
+    {
+      "path": "web/account/account.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 11679,
+      "sha256": "d90d03a3e5507ad97292fe4bf1b350c0410e6c6967621b34b687f63dc37b38e1"
+    },
+    {
+      "path": "web/account/auth-ux.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 2399,
+      "sha256": "5823ddc485c6f37e49c30f602861c9a4afa360f1c445777eddcc88ca614ca35f"
+    },
+    {
+      "path": "web/account/canonical-entry.legavik-track-b-s3-integration-20260929-2.js",
+      "size": 1748,
+      "sha256": "247b06b5363f96ee1572de246d2809d7402ecceecadb063069fdcecca3ccc92c"
+    },
+    {
+      "path": "web/account/public-config.legavik-track-b-s3-integration-20260929-2.js",
+      "size": 161,
+      "sha256": "3dc6074b161b599386e22c05bfa76507d5fe6c16221ac901a55a08b5c30165db"
+    },
+    {
+      "path": "web/assets/LEGAVIK-Recovery-Guide-V1.pdf",
+      "size": 430435,
+      "sha256": "fe19ece2ef96da4093f7aa2c88bb54221b5ed459f31c8a78de8d734ff9b02722"
+    },
+    {
+      "path": "web/assets/SKREK-Recovery-Guide-V2.pdf",
+      "size": 325830,
+      "sha256": "2fb97d467a3ee710048251ff192eff93bd3fb0a788b74da2be652d8272cdef56"
+    },
+    {
+      "path": "web/assets/legavik-brand-master-v1.png",
+      "size": 1887976,
+      "sha256": "6f593c6aa75f69eda7cba735ea0387194544d8b2bafee4b5e562a79e46d9d38b"
+    },
+    {
+      "path": "web/assets/professional-preview-estate-planning.jpg",
+      "size": 90816,
+      "sha256": "5e0c45aa8d63e4c179855e1cf18a3f9e22f837c6e9c9d330924dbc2bbec5cbbb"
+    },
+    {
+      "path": "web/assets/professional-preview-wealth-management.jpg",
+      "size": 90079,
+      "sha256": "bb33a1fdab951a02835534cbd1e87072d75e53d378abec3c6cdd29d3e6afece8"
+    },
+    {
+      "path": "web/assets/security-privacy-visual.png",
+      "size": 2107258,
+      "sha256": "768209b25800ca62cfc38cd6c80a3262a9db1fa648862fab6f4055c71d297f28"
+    },
+    {
+      "path": "web/assets/skrek-digital-asset-map-v1.png",
+      "size": 1652295,
+      "sha256": "148ce0a888a191de3c31ca9e4eeaaec964f632699a111067e22a36d7d17a51da"
+    },
+    {
+      "path": "web/assets/skrek-logo-formal.png",
+      "size": 938428,
+      "sha256": "c675c23a65b7768ac0d2877797df2c335801ff0872ef44a4b043e92adee4add1"
+    },
+    {
+      "path": "web/canonical-entry-recovery.legavik-track-b-s3-integration-20260929-2.js",
+      "size": 2430,
+      "sha256": "6603d190edeb95cba605dcb016b256b53fe4e24d79d06072176bc5850e6f76ef"
+    },
+    {
+      "path": "web/canonical-runtime-gate.legavik-track-b-s3-integration-20260929-2.js",
+      "size": 6010,
+      "sha256": "f964a3eea381c9ff6d5d92b3d9788f370330e453cff7234ea1e30e2c6d4f8c2f"
+    },
+    {
+      "path": "web/recover.legavik-track-b-s3-integration-20260929-2.bundle.js",
+      "size": 87190,
+      "sha256": "9242c81c7aa1a18ed6c92ebf39ce27e2e0b501be4ac4f1a9ea876f91fa0604b4"
+    },
+    {
+      "path": "web/recovery-workspace.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 12800,
+      "sha256": "d3d7091b9888de662b0d8ef9ca4eb10dc0520c012791a1744a033973b98160e2"
+    },
+    {
+      "path": "web/styles.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 4285,
+      "sha256": "4efb1b1719d3c9e1dba4fef71e2a9055aa5d55b51e601899b5b25c58e0f47325"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module1_资产与账户_Canonical_V2.docx",
+      "size": 10459,
+      "sha256": "3bc44f51412d59c70be6cb2e79d752bd1e66cdadabb5585de316788a0e9d002c"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module2_恢复所需条件与资料_Canonical_V2.docx",
+      "size": 11207,
+      "sha256": "892f4618af90f6e55343751ac8d6b8d30497a1db080a992a9bd711f41fb8f923"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_单一平台信息_Canonical_V2.docx",
+      "size": 19498,
+      "sha256": "cd0edb5556ea6852789300c5447148098280334ed26f30853ce578449005e17c"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_单一平台填写模板_V3_Final.docx",
+      "size": 19621,
+      "sha256": "ffcb9e19ee117965b1e85e945a9071911faceb959da463f48e0e427812c7544f"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_恢复信息位置汇总_Canonical_V2.docx",
+      "size": 20512,
+      "sha256": "874bd575e471be8f60dfeabb200bad7f97789813935eb3a9c9660bbc39c605d5"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 19282,
+      "sha256": "3e93ac946a8d31c6ae93d6972f90d3a752fd690a59666bc59e83ba5ee60eb424"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台填写模板_V1_Final.docx",
+      "size": 19917,
+      "sha256": "8198b7052ec752a175caa2122bd1578f8b253740980dd26728da92b0f8ee8a14"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.1.docx",
+      "size": 19504,
+      "sha256": "b74ec74e2b6676c2d3ddae2e66cb4cbe65e6206b6c23f58327412cef6c5d6870"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.docx",
+      "size": 20486,
+      "sha256": "0966c85e9c758b96dc6cf321369e7343bf7836c2e3c1f293ec354be4a7f99726"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.1.docx",
+      "size": 19901,
+      "sha256": "b54d559ed191afb061ae5a40d1675b55d041f27a263b87b3c40c92ef3d373cd1"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.docx",
+      "size": 20784,
+      "sha256": "f266eb6f9557b5e3bd0d798d8c6a80aa6654b531a863b2724b40bfdda42ff0e2"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 20398,
+      "sha256": "c81e5f7e4578da71cab0bf405ec4bf7b5c05bfb0c122d781bba134c664ee81de"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module5_协助人_Canonical_V2.docx",
+      "size": 18605,
+      "sha256": "c612d9d2022867850fcfddf3eeff1c21ed7f07bc2877d3983fe260151f0f4853"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module6_给未来恢复人的嘱托_Canonical_V2.docx",
+      "size": 14895,
+      "sha256": "2ad8f33550a8b4c9ed0ff240810e0a4df19f8d6a97ea033436732444f9163a6f"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module6_给未来恢复人的嘱托_Canonical_V3.1.docx",
+      "size": 11927,
+      "sha256": "5b9ac861ed6a809fff66ae735d389c1a53e8c49f174492509343cb36b8493e6e"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module1_资产与账户_Canonical_V2.docx",
+      "size": 10416,
+      "sha256": "2388a29180921bdd6f297217a56587f4079c79faf605962cf04dda126baccb71"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module2_恢复所需条件与资料_Canonical_V2.docx",
+      "size": 9736,
+      "sha256": "34a4de33333f08caad9a2adc92b22b05d45a5939537b3025329e0090e0960342"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_单一平台信息_Canonical_V2.docx",
+      "size": 17173,
+      "sha256": "483933144c79abc5d30e3b66e88f9f82d55ca68ecd8f20614655d2cbaa84ca67"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_单一平台填写模板_V3_Final.docx",
+      "size": 17335,
+      "sha256": "0b2b8fac3aba38af538d9a3e57bd5b0fa66c525967353194815343502c742dbf"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_恢复信息位置汇总_Canonical_V2.docx",
+      "size": 18295,
+      "sha256": "d7800dbea4e8c571e07720cee59f20c43a7ae01897e1f08eb7acba32d9e8d518"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 17681,
+      "sha256": "eadadfbee3b8b051c6bc45cbf7912c4ee225181f996446073aca63dde4020f15"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台填写模板_V1_Final.docx",
+      "size": 17454,
+      "sha256": "f471bb5258e3dc77d54ff17e9b40f764f713448303d38daa8d82606782e3d83c"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.1.docx",
+      "size": 16964,
+      "sha256": "25ee4e59cc3c99bdcd06f27fc69ef6f548b606e0ad93f7e9b2e16a58ab1a041f"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.docx",
+      "size": 17950,
+      "sha256": "6cd5965bde801eb2670841a6cb328455c8e8805db02bea8b8a73987233d60d27"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.1.docx",
+      "size": 17296,
+      "sha256": "ea1783012262888b66a260849e5bedb438b000058b0712ead862aca22adb4a20"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.docx",
+      "size": 18201,
+      "sha256": "ee1763fd916846a6cd6e472d043d1e0ad5d90316bd2b78dce3d4a0ed9e7a8212"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 18705,
+      "sha256": "5cfc087738953a1f6beed54314831c2c1489fd0b32d44651a019bc7f3f3f46f7"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module5_协助人_Canonical_V2.docx",
+      "size": 16411,
+      "sha256": "694b1fe3bbba57bffc854e66aabf7275a26aa433dedbd0d54d4c856566bf8bc6"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module6_给未来恢复人的嘱托_Canonical_V2.docx",
+      "size": 13072,
+      "sha256": "2db929cc7b273b1919f19f938451c62db1395acf1bba625acb961fc837f13c7a"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module6_给未来恢复人的嘱托_Canonical_V3.1.docx",
+      "size": 10346,
+      "sha256": "c8705f736ca5b5dbd63fcb9c2e494b342293a0bdc9dd1b9a68b2c0edab79328e"
+    },
+    {
+      "path": "web/v2/canonical-entry.legavik-track-b-s3-integration-20260929-2.js",
+      "size": 1716,
+      "sha256": "5b7580bb668bbd20ec74c7e934a8a3dafddd794077da2a58bb71ef8b1977412d"
+    },
+    {
+      "path": "web/v2/product-integration.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 79353,
+      "sha256": "a7b2be8efd692f0d7e2cceffaef28ddbcfad43eb0245be46b0ca4279a3763699"
+    },
+    {
+      "path": "web/v2/readiness.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 411,
+      "sha256": "ab68f659ecf59ec0cdb2cadd34c02ef24802686ff82bf35f85dc50ba3018728a"
+    },
+    {
+      "path": "web/v2/v2-app.legavik-track-b-s3-integration-20260929-2.bundle.js",
+      "size": 709588,
+      "sha256": "d62cf3bb0cc019ebc2899f61ad24f73552b5f488e79aa7fa31a3d9639d285385"
+    },
+    {
+      "path": "web/v2/v2.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 9985,
+      "sha256": "644a10ed80352be4e373f5a6cb7e8e7e28de2e9ba50ec7e5800fdc074eb08f4a"
+    },
+    {
+      "path": "web/v3-crypto/canonical-entry.legavik-track-b-s3-integration-20260929-2.js",
+      "size": 752,
+      "sha256": "9f6cf654fdc42b449d5bdbe0b901b36a6a113dc0f3497f2f26e47017a1c49628"
+    },
+    {
+      "path": "web/v3-crypto/product-v1.legavik-track-b-s3-integration-20260929-2.bundle.js",
+      "size": 183261,
+      "sha256": "12276f911d98194df174cabde3aa2501972d23feaa2bdd13d8e8765244074fc2"
+    },
+    {
+      "path": "web/v3-crypto/product-v1.legavik-track-b-s3-integration-20260929-2.css",
+      "size": 91327,
+      "sha256": "8bf37fec61f6ed47b9d396403e33c8524640c140343a4a069ca03dd88aa267c5"
+    }
+  ],
+  "required_templates": [
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module1_资产与账户_Canonical_V2.docx",
+      "size": 10459,
+      "sha256": "3bc44f51412d59c70be6cb2e79d752bd1e66cdadabb5585de316788a0e9d002c"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module2_恢复所需条件与资料_Canonical_V2.docx",
+      "size": 11207,
+      "sha256": "892f4618af90f6e55343751ac8d6b8d30497a1db080a992a9bd711f41fb8f923"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_单一平台信息_Canonical_V2.docx",
+      "size": 19498,
+      "sha256": "cd0edb5556ea6852789300c5447148098280334ed26f30853ce578449005e17c"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_单一平台填写模板_V3_Final.docx",
+      "size": 19621,
+      "sha256": "ffcb9e19ee117965b1e85e945a9071911faceb959da463f48e0e427812c7544f"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_恢复信息位置汇总_Canonical_V2.docx",
+      "size": 20512,
+      "sha256": "874bd575e471be8f60dfeabb200bad7f97789813935eb3a9c9660bbc39c605d5"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 19282,
+      "sha256": "3e93ac946a8d31c6ae93d6972f90d3a752fd690a59666bc59e83ba5ee60eb424"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台填写模板_V1_Final.docx",
+      "size": 19917,
+      "sha256": "8198b7052ec752a175caa2122bd1578f8b253740980dd26728da92b0f8ee8a14"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.1.docx",
+      "size": 19504,
+      "sha256": "b74ec74e2b6676c2d3ddae2e66cb4cbe65e6206b6c23f58327412cef6c5d6870"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.docx",
+      "size": 20486,
+      "sha256": "0966c85e9c758b96dc6cf321369e7343bf7836c2e3c1f293ec354be4a7f99726"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.1.docx",
+      "size": 19901,
+      "sha256": "b54d559ed191afb061ae5a40d1675b55d041f27a263b87b3c40c92ef3d373cd1"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.docx",
+      "size": 20784,
+      "sha256": "f266eb6f9557b5e3bd0d798d8c6a80aa6654b531a863b2724b40bfdda42ff0e2"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 20398,
+      "sha256": "c81e5f7e4578da71cab0bf405ec4bf7b5c05bfb0c122d781bba134c664ee81de"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module5_协助人_Canonical_V2.docx",
+      "size": 18605,
+      "sha256": "c612d9d2022867850fcfddf3eeff1c21ed7f07bc2877d3983fe260151f0f4853"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module6_给未来恢复人的嘱托_Canonical_V2.docx",
+      "size": 14895,
+      "sha256": "2ad8f33550a8b4c9ed0ff240810e0a4df19f8d6a97ea033436732444f9163a6f"
+    },
+    {
+      "path": "web/v2/assets/templates/LEGAVIK_Module6_给未来恢复人的嘱托_Canonical_V3.1.docx",
+      "size": 11927,
+      "sha256": "5b9ac861ed6a809fff66ae735d389c1a53e8c49f174492509343cb36b8493e6e"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module1_资产与账户_Canonical_V2.docx",
+      "size": 10416,
+      "sha256": "2388a29180921bdd6f297217a56587f4079c79faf605962cf04dda126baccb71"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module2_恢复所需条件与资料_Canonical_V2.docx",
+      "size": 9736,
+      "sha256": "34a4de33333f08caad9a2adc92b22b05d45a5939537b3025329e0090e0960342"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_单一平台信息_Canonical_V2.docx",
+      "size": 17173,
+      "sha256": "483933144c79abc5d30e3b66e88f9f82d55ca68ecd8f20614655d2cbaa84ca67"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_单一平台填写模板_V3_Final.docx",
+      "size": 17335,
+      "sha256": "0b2b8fac3aba38af538d9a3e57bd5b0fa66c525967353194815343502c742dbf"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_恢复信息位置汇总_Canonical_V2.docx",
+      "size": 18295,
+      "sha256": "d7800dbea4e8c571e07720cee59f20c43a7ae01897e1f08eb7acba32d9e8d518"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module3_位置与查找_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 17681,
+      "sha256": "eadadfbee3b8b051c6bc45cbf7912c4ee225181f996446073aca63dde4020f15"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台填写模板_V1_Final.docx",
+      "size": 17454,
+      "sha256": "f471bb5258e3dc77d54ff17e9b40f764f713448303d38daa8d82606782e3d83c"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.1.docx",
+      "size": 16964,
+      "sha256": "25ee4e59cc3c99bdcd06f27fc69ef6f548b606e0ad93f7e9b2e16a58ab1a041f"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.docx",
+      "size": 17950,
+      "sha256": "6cd5965bde801eb2670841a6cb328455c8e8805db02bea8b8a73987233d60d27"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.1.docx",
+      "size": 17296,
+      "sha256": "ea1783012262888b66a260849e5bedb438b000058b0712ead862aca22adb4a20"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.docx",
+      "size": 18201,
+      "sha256": "ee1763fd916846a6cd6e472d043d1e0ad5d90316bd2b78dce3d4a0ed9e7a8212"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_汇总填写模板_Clean_Formal_V1.docx",
+      "size": 18705,
+      "sha256": "5cfc087738953a1f6beed54314831c2c1489fd0b32d44651a019bc7f3f3f46f7"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module5_协助人_Canonical_V2.docx",
+      "size": 16411,
+      "sha256": "694b1fe3bbba57bffc854e66aabf7275a26aa433dedbd0d54d4c856566bf8bc6"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module6_给未来恢复人的嘱托_Canonical_V2.docx",
+      "size": 13072,
+      "sha256": "2db929cc7b273b1919f19f938451c62db1395acf1bba625acb961fc837f13c7a"
+    },
+    {
+      "path": "web/v2/assets/templates/SKREK_Module6_给未来恢复人的嘱托_Canonical_V3.1.docx",
+      "size": 10346,
+      "sha256": "c8705f736ca5b5dbd63fcb9c2e494b342293a0bdc9dd1b9a68b2c0edab79328e"
+    }
+  ],
+  "source_sha256": {
+    "config/attachments/v1.json": "824f0f6dba7de8a3560450d2ea52a4efd4c5f5d28cad20fb34f082e5f4001d19",
+    "config/content/review-zh-CN.json": "a057beae4d73a7c718bfed42605c829687d5eea91ac6bcb698195129cbf1f706",
+    "config/content/zh-CN.json": "b4598ab65fe247afb753d92f40e3a1bddb8a5eb3d9f609bb4540a7d89fcb314a",
+    "config/guidance/zh-CN-v1.json": "fdbf73191dbc9fd2235e13a939110a8e5413bcc7974cab507bab2c6edd1dd1bc",
+    "config/plans/v1.json": "68405c10f5cd2bbc63f751f5dc8f0631b5bddf9feb7ffd61743d648aff3fb795",
+    "config/recovery-map/v2/activation-phase1-zh-CN.json": "6da5db240e198ab3f0f60da909369f6b02e09b524dc0b114ecc92f3f9e0bf793",
+    "config/recovery-map/v2/field-types.json": "a552be0b02ecb1d6f00f97ababbc9f36c6dd273b6c4d64d59105a3fa0b5fc7ab",
+    "config/recovery-map/v2/living-rules-v2.json": "ae09a0c885ce5398861781745e8fe93d30ee47b32f1967ed6cd8de36921c7557",
+    "config/recovery-map/v2/modules.json": "8d9310b519ffdc9557808d155abd80cd73a0cacd34dd721cec409d6a8b1f7160",
+    "config/recovery-map/v2/platform-templates-v2.json": "0aa9917743667f785d7e6a2966063fe2439a6c39c37916c0cb685dfae05be2d8",
+    "config/recovery-map/v2/presentation-zh-CN.json": "2f8c42cd9bd07a21334fc363a08cf24a08c3692815af6d0e061d944476edbf99",
+    "config/recovery-map/v2/product-rules-v1.json": "06862b948060291a10ca40d9645dff00dd6d6bf0f4fc8e4fb53bdc843e2fbe47",
+    "config/security/recovery-password-v1.json": "6a1ed40c4cae93b72763d6708262c54f29c2f220fd9c093d9e457265b5de9c55",
+    "config/templates/business-systems.json": "53d5773c1baa211ed5abaf1b2921871d9d8a2c2bdf81e252d9f1b59155c39029",
+    "config/templates/contacts-assistance.json": "dd086da5229bbbb116c47d8cfdd83707fb4ebf0b4765deef856b63cf5d7d0a36",
+    "config/templates/devices-locations.json": "bfa8942c021eaa0b39286f886e1ca65a25e772a09ed7b053b20784db8d4910eb",
+    "config/templates/digital-accounts.json": "b32a199ba9df886d8a6066d02546d83087a09458fc78bf6771f55de40e12ab80",
+    "config/templates/exchange-custody.json": "72db35d9ecc817911b12bfbd23612f25a9e1763d325928258335255fd35f52a3",
+    "config/templates/recovery-orders-warnings.json": "7138d67d20c4a3fcf0e13b908c17761e59c7715738654ca6f71d22cbbf97a4f7",
+    "config/templates/wallet-assets.json": "2f52de1e300e9243f00402dce7b2964faa3fd20381a3069e8d494e1d79834437",
+    "config/wizard/v1.json": "aaa5554201077310b28537b1b1252193f9e796d1856426b93555379d642d7308",
+    "src/account/account-nav-bridge.js": "96e8615f78b0888427304092a47d843d583e9e2ad8cff9c95ed60edbeb22f0d6",
+    "src/account/auth-state-machine.js": "674f0f8a84eb5e5c1e743decdd774dd9d3faa12ec535a3257d7f416edff49389",
+    "src/account/password-policy.js": "0f2be170c96bd52efeadd77d481ce450499557917842ddc0e0c54e367268224b",
+    "src/account/password-reset-submission.js": "9aaa6aa04c138e43664b16f43559c42456d01368353f83afde8a8c9807d6dbb7",
+    "src/account/recovery-callback.js": "1c347c279976c9b89a01f9a31e27b95a8c7a153b9fd2293098040dc0645a2b14",
+    "src/account/recovery-metadata-client.js": "070ffa01740090ab34964609593b0bc34634b7f372e8849ec017ebe901406fc6",
+    "src/account/service-entitlement.js": "9547c3aab52281eeb1264f52b13e7c8a09d51496f265237a9af6090c28a8ac6a",
+    "src/account/supabase-account-app.js": "5a5730973e01fe1d30de88800aa3335a5be98c3486afe9d91ebe39b1404972ce",
+    "src/crypto/crypto-engine.js": "8ead95ee5aac09fddf6fd1126b17c987966719fa42804bf38f00417f1ebed8ed",
+    "src/crypto/kdf-provider.js": "e187d9301db55d0edcf0194b6188d38881427dd154b55bc47fd497a4509b3ecc",
+    "src/domain/constants.js": "dcaaa9e7625781dcdf23364d30818e34822043dd5076e4dc2e581e4d94805467",
+    "src/knowledge/dispatcher.js": "8bf8ceff0e0df3a79247e9af66e6b28d5dc177e4ca091fe8ede6c218cfb45f6a",
+    "src/knowledge/kb-live-adapter.js": "a08df1d6c7d11ddd6312795fbda9719e9625bc62ea3bdef2247e804808cfcf1c",
+    "src/knowledge/schema-v2.js": "1adf680ef61789d0ca9ef832506c6494089b155eb84b5498733a1ca30e239566",
+    "src/knowledge/schema.js": "936e413f3780969c2af9b3a7f2ce1132b44483ac28e0313286ec7b6ea881cc02",
+    "src/knowledge/validator-v2.js": "0be50228d5f42f90817d1acd3e680cbb018bd25ff0899b6b90fa1ef526b82ef1",
+    "src/knowledge/validator.js": "3820a8b99030abd7daeed680c1eaf3e48846db01d163a4b298f9406a5c183b5f",
+    "src/product-v2/account-form.js": "6f68342815debefa1341c986c00ef4cc5dcacdd8bcc5ad41aa1ba24eccf65ab8",
+    "src/product-v2/actions.js": "4df6143c8aeedecdeaf0710fc3f7eda232dc9f79ca979948374b586482bde22c",
+    "src/product-v2/application-state.js": "b4f8aac66993b3cb36bb27d5e86ac743bdf37a5316b5f6965447b188167147b6",
+    "src/product-v2/attachment-manager.js": "c6c71de002213d774d58543cb810cc21a5a1eaeb14654049429182fda2d5662d",
+    "src/product-v2/dynamic-docx-templates.js": "1548fa3816f37caa5d09e355ee8cd8dc96e15ccb2b3b934e48a569f6a91d85f3",
+    "src/product-v2/generation-preflight.js": "3bc4b8086129a9d6d9264a871fb76e3a13d233c5562fc995814693c4fc16436a",
+    "src/product-v2/model.js": "6a67d1321c02d6360b8c776efda8fc784022bbe7f11244e5430041b63b7aa30e",
+    "src/product-v2/module-summary-exports.js": "49071fc7364ddcb2918b5017e0f71f52199275cc816d5564fb3d45878105ac57",
+    "src/product-v2/projections.js": "ec6d4fb8ac7197a555fbd1c9b5b1ec591deb105f5eb39c8971f15202c11e4d17",
+    "src/product-v2/recovered-report.js": "8105d7ba5db3f43f260afefa1a5e847b0731bde14181c1089c189d6f90d78ab8",
+    "src/product-v2/snapshot-mapper.js": "83b44f22780aabf2a2c2f28ad603837bc117768a4ffa173f391d7e5258809fab",
+    "src/product-v2/validator.js": "27ab9cce8da0679dd288a5a70d88d9bf59dc9396046dd0f24723efa3be0f7df1",
+    "src/product-v2/version-machine.js": "a1c251fe07d22218c7d0c991b74bcc9588e8de02ed84ae35ad1df65deeea214a",
+    "src/product-v2/version-update-change-state.js": "3a1104601085ad127b67986bf71a4010b971bd0c5897e63f632ea11d77cea4d9",
+    "src/product-v2/version-update-diagnostics.js": "6c020521683d87e5c6571f220ae7f77afba5becefabd5eec55e9106c47150bac",
+    "src/product-v2/version-update-import.js": "32a2edbecd92634a286cece3be1abee87046f384fac12dc9ad4c7616c214212d",
+    "src/recovery-kit/recovery-kit-builder.js": "0b341ecff2bf5d1fa164f51f6d41da006bd70fecb365b66a137605bdab4b81d2",
+    "src/recovery/attachment-recovery.js": "19bf82f495115d62ec284c3a32c14f45e976474bd2f0ce5581e567f34f9e552f",
+    "src/recovery/recovery-service.js": "dc4f6fad419aca0d06540ae2dc7dc2836c0ee02e7b47e86719935bb9c2555d07",
+    "src/review/rules-v2.js": "a1e513c95478875d0b83ce0ccb19aa5ec741a591720da415b92d0016beb27f27",
+    "src/shared/canonical-json.js": "85b0241196d8ed3075eee200a4da5233c876e48ca761114456682e80508e2fcf",
+    "src/shared/encoding.js": "d366673cabb902a40710fc1b8faeb3e74fcfd3858db0d857ba5e65ea662bb145",
+    "src/shared/errors.js": "4f8266e2cd3067143bcdd5eaa482801e00f1b7e60d53dabf0e046b72b275332e",
+    "src/shared/mime-type.js": "eb336c3fc19cf4958eb44bf5945eaa3053bb6adc9598e43d2fc18976ead150e6",
+    "src/shared/sanitize-filename.js": "60b46dc38d49cb3cfd094f78142873f945dfcbfd5cea8ab582663bf9a3b5e69d",
+    "src/snapshot/snapshot-builder.js": "191c9ecdc840f6a2f9f4502901396caa7993dbec6ca27d555645d95266b8490a",
+    "src/ui/artifact-codec.js": "b4a7315a3ff586ae75f5fb15c9954a468d4a518043659a75d0814588710f950b",
+    "src/ui/attachment-display.js": "445563530609cb7e2eff8f315b0282d3692d99131a6967b21c6c4f1de119f516",
+    "src/ui/attachment-policy.js": "591fd9b2bbe2e3f59cd2db3903ff8a54046cf42cdaff12162eadb5679c113b16",
+    "src/ui/brand-contract.js": "1ef0f94282f8d59f6b3d3eb6fe066f88de69bd8c16895f46169ad592ae079737",
+    "src/ui/canonical-customer-links.js": "cf029ae8175d869e2b9bfa84c1e8e511c9713c8b566d6dd3e189a8af88fee009",
+    "src/ui/customer-flow-error.js": "c5092d1fe65e70e02843497572df9267857a80d5c33cd8ecc310d685307bfde1",
+    "src/ui/file-save.js": "ba052968dbafe3bdeb66c7ef23febf3c46ed20082ccd6ef4b94d62d9f9f95317",
+    "src/ui/format-byte-size.js": "ce7ff3d352b713a0a6267fdbc59e491a18ed2a7cc08e32d5013c17f7165fe452",
+    "src/ui/fresh-resume-runtime.js": "b6bd081df729c374aa975fb6964b6e3ef9afde0e8bbe28116253c6a13a3a1086",
+    "src/ui/mainnet-connector.js": "5fa2236e9589d57ad215305543a377af364733dc51ac3934b8ce77e75237d55b",
+    "src/ui/mainnet-stability.js": "6bca2c74fc4008476e2c42d7e9bbec40903e4643e42ce93c8ae321a378ddb9db",
+    "src/ui/password-policy.js": "135879a0aa960bec5681e9d3964a60c810ff77cacbb3eaa3c05fc80707a938ac",
+    "src/ui/publish-page-safety.js": "aa586cfd7873a52af1d7b681c8ec78d996ad63043093191df0d052bb8259dbfa",
+    "src/ui/resume-checkpoint-crypto.js": "d8d3d3422787aa5df4ae2c977bc3c5034317cfa4b2e96be6ec149adc9bdb41e3",
+    "src/ui/skrek-global-header.css": "cedadaf8ed1135a636507dbec6e6a5996e357c34dac4e89872b38717fa8f1e74",
+    "src/ui/skrek-global-header.js": "aec7347da4947f56b4457b464c94caf5d69bc4a4969acb0b4d6460a46fd81a82",
+    "src/ui/track-b-qa-config.js": "1c4ce91697cc6c92222f270a7dfdd5e2e6b4a7a9407985792b37eb6fd7dc9b60",
+    "src/ui/track-b-qa-environment.js": "aab61e9e515bddabc8e920ebc88053f41b37c90a7f51506d3896611db587ee91",
+    "src/ui/upload-execution-authority.js": "35327b9098effef5fbd725dbf1e8ce24f202f673e29552c31c93252094eb0ad2",
+    "src/ui/upload-performance.js": "065032f2b16d4503fa68e05575c60ca42c19c2448c6bda2f45afb32298e46b19",
+    "src/ui/vault-pipeline.js": "ba2136d66a20c9e887c34d2aef090793bb1475b9bafa9c6da961f6e1ce878135",
+    "src/ui/wallet-adapter.js": "7b73e30880fb8b2d3d9ccd6298c1beacf8c51565f963fb423d0a6e0897ec8f12",
+    "tools/ar-generic-file-mainnet-pilot/file-format-policy.js": "6c8aba1663c2a1816f93d113a937c730eb6c1a68c0f7e18ef8f24d7a7a095a48",
+    "tools/ar-generic-file-mainnet-pilot/gateway-verifier.js": "7bdf042f7b949e366a03d865355fbb00b23a160bf9ad0fbc45eee99e9819bd09",
+    "tools/ar-generic-file-mainnet-pilot/generic-archive.js": "c8cd1300cd928a916a81b91ed2c556a995adf896dca6706de803e8086585c9da",
+    "tools/ar-generic-file-mainnet-pilot/material-delivery.js": "140e56373be2fb621107808c9c64b0b802c5e0a4500a1b6c114846abb5c8faca",
+    "tools/ar-generic-file-mainnet-pilot/pilot-core.js": "a0417015a07754b3a02511cea09f56991771885b25a84c8be52aab3aeb9f244e",
+    "tools/ar-unified-multi-file-mainnet-pilot/pilot-core.js": "871b8f23a199b4aa1f8285377a7b28276acc1d1959005f9abde86e98fcc05ba5",
+    "tools/track-b-qa/template-inventory.json": "8ee157d0fb5ff53edc575e0a855def3d2f392f4a9542c31508958628dd1b1dd6",
+    "web/account/account.css": "d90d03a3e5507ad97292fe4bf1b350c0410e6c6967621b34b687f63dc37b38e1",
+    "web/account/auth-ux.css": "5823ddc485c6f37e49c30f602861c9a4afa360f1c445777eddcc88ca614ca35f",
+    "web/account/canonical-entry.js": "6ffa9b85d9bf78f5a61ccf014609e6128b9243da8fc68d31cd8c3ff348c084ac",
+    "web/account/index.html": "8c0ce333e87195b368f9be1f8f539b086e0df783d4475d823a34aa7ae72c17e9",
+    "web/account/public-config.js": "3dc6074b161b599386e22c05bfa76507d5fe6c16221ac901a55a08b5c30165db",
+    "web/account/recovery-metadata-client.bundle.js": "02eb87ee5778a49c26ea5fdc26788f5a70f0b0b1bd41c71d1a1a9f60d8bcf718",
+    "web/assets/legavik-brand-master-v1.png": "6f593c6aa75f69eda7cba735ea0387194544d8b2bafee4b5e562a79e46d9d38b",
+    "web/assets/LEGAVIK-Recovery-Guide-V1.pdf": "fe19ece2ef96da4093f7aa2c88bb54221b5ed459f31c8a78de8d734ff9b02722",
+    "web/assets/professional-preview-estate-planning.jpg": "5e0c45aa8d63e4c179855e1cf18a3f9e22f837c6e9c9d330924dbc2bbec5cbbb",
+    "web/assets/professional-preview-wealth-management.jpg": "bb33a1fdab951a02835534cbd1e87072d75e53d378abec3c6cdd29d3e6afece8",
+    "web/assets/security-privacy-visual.png": "768209b25800ca62cfc38cd6c80a3262a9db1fa648862fab6f4055c71d297f28",
+    "web/assets/skrek-digital-asset-map-v1.png": "148ce0a888a191de3c31ca9e4eeaaec964f632699a111067e22a36d7d17a51da",
+    "web/assets/skrek-logo-formal.png": "c675c23a65b7768ac0d2877797df2c335801ff0872ef44a4b043e92adee4add1",
+    "web/assets/SKREK-Recovery-Guide-V2.pdf": "2fb97d467a3ee710048251ff192eff93bd3fb0a788b74da2be652d8272cdef56",
+    "web/canonical-entry-recovery.js": "50b4576fa45ad867fd38bbce9c11c20013598f353bb6747bc5e3e78a91bfad4b",
+    "web/canonical-runtime-gate.js": "730f994516bc091cca0b776be1a7f698959cb74fe4b3f951a32ee652d2652e1b",
+    "web/map-view.js": "8188f7655239878f77fbce3f140c12f4c93b1da366b48eb35d6ed3007384747d",
+    "web/recover.html": "0af72744bfa82cce9a833f0aa277ab4fc0a1091d77eecdba47943613ef1295c1",
+    "web/recover.js": "f532f1198b523ba087aee23880f55fc90558f936279b85e36e4b74e146e99b69",
+    "web/recovery-workspace.css": "d3d7091b9888de662b0d8ef9ca4eb10dc0520c012791a1744a033973b98160e2",
+    "web/styles.css": "4efb1b1719d3c9e1dba4fef71e2a9055aa5d55b51e601899b5b25c58e0f47325",
+    "web/v2/assets/templates/LEGAVIK_Module1_资产与账户_Canonical_V2.docx": "3bc44f51412d59c70be6cb2e79d752bd1e66cdadabb5585de316788a0e9d002c",
+    "web/v2/assets/templates/LEGAVIK_Module2_恢复所需条件与资料_Canonical_V2.docx": "892f4618af90f6e55343751ac8d6b8d30497a1db080a992a9bd711f41fb8f923",
+    "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_单一平台信息_Canonical_V2.docx": "cd0edb5556ea6852789300c5447148098280334ed26f30853ce578449005e17c",
+    "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_单一平台填写模板_V3_Final.docx": "ffcb9e19ee117965b1e85e945a9071911faceb959da463f48e0e427812c7544f",
+    "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_恢复信息位置汇总_Canonical_V2.docx": "874bd575e471be8f60dfeabb200bad7f97789813935eb3a9c9660bbc39c605d5",
+    "web/v2/assets/templates/LEGAVIK_Module3_位置与查找_汇总填写模板_Clean_Formal_V1.docx": "3e93ac946a8d31c6ae93d6972f90d3a752fd690a59666bc59e83ba5ee60eb424",
+    "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台填写模板_V1_Final.docx": "8198b7052ec752a175caa2122bd1578f8b253740980dd26728da92b0f8ee8a14",
+    "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.1.docx": "b74ec74e2b6676c2d3ddae2e66cb4cbe65e6206b6c23f58327412cef6c5d6870",
+    "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.docx": "0966c85e9c758b96dc6cf321369e7343bf7836c2e3c1f293ec354be4a7f99726",
+    "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.1.docx": "b54d559ed191afb061ae5a40d1675b55d041f27a263b87b3c40c92ef3d373cd1",
+    "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.docx": "f266eb6f9557b5e3bd0d798d8c6a80aa6654b531a863b2724b40bfdda42ff0e2",
+    "web/v2/assets/templates/LEGAVIK_Module4_恢复与转移步骤_汇总填写模板_Clean_Formal_V1.docx": "c81e5f7e4578da71cab0bf405ec4bf7b5c05bfb0c122d781bba134c664ee81de",
+    "web/v2/assets/templates/LEGAVIK_Module5_协助人_Canonical_V2.docx": "c612d9d2022867850fcfddf3eeff1c21ed7f07bc2877d3983fe260151f0f4853",
+    "web/v2/assets/templates/LEGAVIK_Module6_给未来恢复人的嘱托_Canonical_V2.docx": "2ad8f33550a8b4c9ed0ff240810e0a4df19f8d6a97ea033436732444f9163a6f",
+    "web/v2/assets/templates/LEGAVIK_Module6_给未来恢复人的嘱托_Canonical_V3.1.docx": "5b9ac861ed6a809fff66ae735d389c1a53e8c49f174492509343cb36b8493e6e",
+    "web/v2/assets/templates/SKREK_Module1_资产与账户_Canonical_V2.docx": "2388a29180921bdd6f297217a56587f4079c79faf605962cf04dda126baccb71",
+    "web/v2/assets/templates/SKREK_Module2_恢复所需条件与资料_Canonical_V2.docx": "34a4de33333f08caad9a2adc92b22b05d45a5939537b3025329e0090e0960342",
+    "web/v2/assets/templates/SKREK_Module3_位置与查找_单一平台信息_Canonical_V2.docx": "483933144c79abc5d30e3b66e88f9f82d55ca68ecd8f20614655d2cbaa84ca67",
+    "web/v2/assets/templates/SKREK_Module3_位置与查找_单一平台填写模板_V3_Final.docx": "0b2b8fac3aba38af538d9a3e57bd5b0fa66c525967353194815343502c742dbf",
+    "web/v2/assets/templates/SKREK_Module3_位置与查找_恢复信息位置汇总_Canonical_V2.docx": "d7800dbea4e8c571e07720cee59f20c43a7ae01897e1f08eb7acba32d9e8d518",
+    "web/v2/assets/templates/SKREK_Module3_位置与查找_汇总填写模板_Clean_Formal_V1.docx": "eadadfbee3b8b051c6bc45cbf7912c4ee225181f996446073aca63dde4020f15",
+    "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台填写模板_V1_Final.docx": "f471bb5258e3dc77d54ff17e9b40f764f713448303d38daa8d82606782e3d83c",
+    "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.1.docx": "25ee4e59cc3c99bdcd06f27fc69ef6f548b606e0ad93f7e9b2e16a58ab1a041f",
+    "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_单一平台恢复步骤_Canonical_V2.docx": "6cd5965bde801eb2670841a6cb328455c8e8805db02bea8b8a73987233d60d27",
+    "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.1.docx": "ea1783012262888b66a260849e5bedb438b000058b0712ead862aca22adb4a20",
+    "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_恢复步骤汇总_Canonical_V2.docx": "ee1763fd916846a6cd6e472d043d1e0ad5d90316bd2b78dce3d4a0ed9e7a8212",
+    "web/v2/assets/templates/SKREK_Module4_恢复与转移步骤_汇总填写模板_Clean_Formal_V1.docx": "5cfc087738953a1f6beed54314831c2c1489fd0b32d44651a019bc7f3f3f46f7",
+    "web/v2/assets/templates/SKREK_Module5_协助人_Canonical_V2.docx": "694b1fe3bbba57bffc854e66aabf7275a26aa433dedbd0d54d4c856566bf8bc6",
+    "web/v2/assets/templates/SKREK_Module6_给未来恢复人的嘱托_Canonical_V2.docx": "2db929cc7b273b1919f19f938451c62db1395acf1bba625acb961fc837f13c7a",
+    "web/v2/assets/templates/SKREK_Module6_给未来恢复人的嘱托_Canonical_V3.1.docx": "c8705f736ca5b5dbd63fcb9c2e494b342293a0bdc9dd1b9a68b2c0edab79328e",
+    "web/v2/canonical-entry.js": "972b10e9df1f1fe5b3e10228b0964043efe31d125837855ecd742830ed882177",
+    "web/v2/index.html": "ad2047eee8994cab1bc32b31968b5bf0c88d6a7f3e5f716bac289a3997f3c247",
+    "web/v2/module-template-canonical-help.js": "3ec1e73904c11537183af98c42fc1f31aeea2a30ac9e5d7acab85ec31cc3269a",
+    "web/v2/product-integration.css": "a7b2be8efd692f0d7e2cceffaef28ddbcfad43eb0245be46b0ca4279a3763699",
+    "web/v2/readiness.css": "ab68f659ecf59ec0cdb2cadd34c02ef24802686ff82bf35f85dc50ba3018728a",
+    "web/v2/v2-app.js": "04b603d4c3fe49e23cb7ab0782283fdfc42891f0d0ad1d03e524ac9bf4f363dc",
+    "web/v2/v2.css": "644a10ed80352be4e373f5a6cb7e8e7e28de2e9ba50ec7e5800fdc074eb08f4a",
+    "web/v3-crypto/brand-config.js": "74f4b904519428e6198248c2634fafd9b83367fd8df694d330e68b44e98b6a35",
+    "web/v3-crypto/canonical-entry.js": "b4cacac2dd2eb34cf28e3c7638cc50a136bbc5518c62eede4434ab9f02f1c692",
+    "web/v3-crypto/index.html": "d2b8fa888fdcf7783819528e28a0823530ac08222c4fced4d12e47f4edcf1719",
+    "web/v3-crypto/product-adapter.js": "64d000ed5156236527b7ad9b1d93714ec7a9ad965c834ecfd33b198a7772aa08",
+    "web/v3-crypto/product-content.js": "92f1dab5cac715a6d7120f8acacee7c0d8318d32f6fe2cb14e4c4e5db93d11d3",
+    "web/v3-crypto/product-v1.css": "8bf37fec61f6ed47b9d396403e33c8524640c140343a4a069ca03dd88aa267c5",
+    "web/v3-crypto/product-v1.js": "a41e0124b56e72f5844b7959cf46b8592e52ad7773966719370b8936e625ded8"
+  }
+}

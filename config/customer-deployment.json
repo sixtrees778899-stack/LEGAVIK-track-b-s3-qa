@@ -1,0 +1,9 @@
+{
+  "deployment_identity": "legavik-track-b-s3-integration-20260929-2",
+  "canonical_origin": "https://sixtrees778899-stack.github.io",
+  "canonical_base": "/LEGAVIK-track-b-s3-qa",
+  "repository": "sixtrees778899-stack/LEGAVIK-track-b-s3-qa",
+  "branch": "qa-candidate",
+  "environment_type": "TRACK_B_INTEGRATION_QA",
+  "status": "QA ONLY"
+}
